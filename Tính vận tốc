@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main (){
+	
+	int v, u, a, t;
+	cout << " Nhap van toc : " << endl;
+	cin >> u;
+	cout << " Nhap gia toc : " << endl;
+	cin >> a;
+	cout << " Nhap thoi gian : " << endl;
+	cin >> t;
+	
+	v = u + a * t;
+	cout << " Van toc cuoi cung la : " << v << endl;
+	return 0;
+}
